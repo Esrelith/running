@@ -1,0 +1,1 @@
+place jump pad and speed pad code on the pads instead of the player, letting them modify the player's movement.
