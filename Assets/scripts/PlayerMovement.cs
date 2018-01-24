@@ -27,6 +27,11 @@ public class PlayerMovement : MonoBehaviour {
 		if (player.position.y <= voidHeight)
 		{
 			FindObjectOfType<GameManager>().Respawn();
+
+			if (transform.localScale != Vector3.zero)
+			{
+				transform.localScale -= new Vector3(0.01f, 0.01f, 0.01f);
+			}
 		}
 	}
 
