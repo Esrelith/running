@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 {
 	bool restart = false;
 	public float respawnTime = 1f;
+	public float loadTime = 1f;
 
 	public void Respawn()
 	{
@@ -22,5 +23,15 @@ public class GameManager : MonoBehaviour
 	void ReloadLevel()
 	{
 		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+	}
+
+	public void NextLevel() //loads next level when level is complete (use Invoke to add a delay)
+	{
+		Invoke("LoadNextLevel", loadTime);
+	}
+
+	void LoadNextLevel()
+	{
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 	}
 }
