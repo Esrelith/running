@@ -9,6 +9,8 @@ public class EndLevel : MonoBehaviour {
 	private void OnTriggerEnter(Collider other)
 	{
 		Debug.Log("Level Complete");
+		AudioSource audio = GetComponent<AudioSource>();
+		audio.Play();
 		gamemanager.NextLevel();
 	}
 }
