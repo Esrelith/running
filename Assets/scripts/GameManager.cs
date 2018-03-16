@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
 	public float respawnTime = 1f;
 	public float loadTime = 1f;
 
-	public void Respawn()
+	public void Respawn() //respawns player
 	{
 		if (restart == false)
 		{
@@ -20,24 +20,25 @@ public class GameManager : MonoBehaviour
 		}
 	}
 
-	void ReloadLevel()
+	void ReloadLevel() //reloads scene after player death
 	{
 		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 	}
 
-	public void NextLevel() //loads next level when level is complete (use Invoke to add a delay)
+	public void SelectedLevel() //loads next level when level is complete (use Invoke to add a delay)
 	{
-		Invoke("LoadNextLevel", loadTime);
+		Invoke("LoadSelectedLevel", loadTime);
 	}
 
-	void LoadNextLevel()
+	void LoadSelectedLevel() //loads the selected level from the global level select
 	{
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if (LevelSelect.SelectedLevel != -1)
+        {
+            SceneManager.LoadScene(LevelSelect.SelectedLevel);
+        }
+        else
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
 	}
-
-    public IEnumerator SelectedLevel(int levelNum)
-    {
-        yield return new WaitForSeconds(loadTime);
-        SceneManager.LoadScene(levelNum);
-    }
 }
