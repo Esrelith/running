@@ -97,7 +97,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62252b207c0f84b40ab0c25158a0f24e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trackObject: {fileID: 0}
+  trackObject: {fileID: 4423462947232738, guid: 0a73d7f52297b734b89371bf89bbdc84,
+    type: 2}
   cameraOffset: {x: 0, y: 4, z: -7.5}
   lowerLimit: 0
 --- !u!124 &124063522628050362
