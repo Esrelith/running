@@ -1,25 +1,17 @@
 fileFormatVersion: 2
-guid: a9a831307da7df24a87a87fea96ecdab
-timeCreated: 1518803337
+guid: de93fc996009b064d8e04db5d3ff5c70
+timeCreated: 1523022542
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: Cube
-    100002: Cube_001
-    100004: //RootNode
-    400000: Cube
-    400002: Cube_001
-    400004: //RootNode
+    100000: //RootNode
+    400000: //RootNode
     2100000: unnamed
-    2300000: Cube
-    2300002: Cube_001
-    2300004: //RootNode
-    3300000: Cube
-    3300002: Cube_001
-    3300004: //RootNode
-    4300000: Cube_001
-    4300002: Cube
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Cube
+    6400000: //RootNode
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}
@@ -54,7 +46,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
