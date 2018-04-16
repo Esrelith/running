@@ -10,9 +10,10 @@ public class JumpPad : MonoBehaviour {
 	{
 		if (collision.collider.tag == "Player")
 		{
+			collision.collider.GetComponent<Rigidbody>().velocity = new Vector3(collision.collider.GetComponent<Rigidbody>().velocity.x, jumpForce, collision.collider.GetComponent<Rigidbody>().velocity.z);
+			Debug.Log ("jumping");
 			AudioSource audio = GetComponent<AudioSource>();
 			audio.Play();
-			collision.collider.GetComponent<Rigidbody>().velocity = new Vector3(collision.collider.GetComponent<Rigidbody>().velocity.x, jumpForce, collision.collider.GetComponent<Rigidbody>().velocity.z);
 		}
 	}
 }
