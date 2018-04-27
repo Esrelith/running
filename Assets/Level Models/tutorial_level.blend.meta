@@ -22,6 +22,7 @@ ModelImporter:
     100028: Cube_014
     100030: Cube_015
     100032: //RootNode
+    100034: end
     400000: Cube
     400002: Cube_001
     400004: Cube_002
@@ -39,6 +40,7 @@ ModelImporter:
     400028: Cube_014
     400030: Cube_015
     400032: //RootNode
+    400034: end
     2100000: unnamed
     2300000: Cube
     2300002: Cube_001
@@ -56,6 +58,7 @@ ModelImporter:
     2300026: Cube_013
     2300028: Cube_014
     2300030: Cube_015
+    2300032: end
     3300000: Cube
     3300002: Cube_001
     3300004: Cube_002
@@ -72,6 +75,7 @@ ModelImporter:
     3300026: Cube_013
     3300028: Cube_014
     3300030: Cube_015
+    3300032: end
     4300000: Cube_015
     4300002: Cube_014
     4300004: Cube_013
@@ -88,6 +92,7 @@ ModelImporter:
     4300026: Cube_001
     4300028: Cube_002
     4300030: Cube
+    4300032: end
     6400000: Cube
     6400002: Cube_001
     6400004: Cube_002
@@ -104,6 +109,7 @@ ModelImporter:
     6400026: Cube_013
     6400028: Cube_014
     6400030: Cube_015
+    6400032: end
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}
