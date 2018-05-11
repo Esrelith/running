@@ -11,12 +11,14 @@ ModelImporter:
     100006: Cube_002
     100008: end
     100010: jumppad
+    100012: Cube_003
     400000: //RootNode
     400002: Cube
     400004: Cube_001
     400006: Cube_002
     400008: end
     400010: jumppad
+    400012: Cube_003
     2100000: unnamed
     2300000: //RootNode
     2300002: Cube
@@ -24,22 +26,26 @@ ModelImporter:
     2300006: Cube_002
     2300008: end
     2300010: jumppad
+    2300012: Cube_003
     3300000: //RootNode
     3300002: Cube
     3300004: Cube_001
     3300006: Cube_002
     3300008: end
     3300010: jumppad
+    3300012: Cube_003
     4300000: Cube
     4300002: Cube_001
     4300004: jumppad
     4300006: end
     4300008: Cube_002
+    4300010: Cube_003
     6400000: Cube
     6400002: Cube_001
     6400004: Cube_002
     6400006: end
     6400008: jumppad
+    6400010: Cube_003
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}
